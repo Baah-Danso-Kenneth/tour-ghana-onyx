@@ -28,7 +28,7 @@ export const LayoutHeader=styled.div`
   `;
 
 export const LayoutMainContent=styled.div`
-   background-color:purple;
+
    grid-area:2/1/span 1/-1;
   `;
 
