@@ -6,7 +6,7 @@ export const WhatWeDocontainer=styled.div`
   margin-top:-1rem;
   @media ${device.lg}{
   
-    padding:3rem;
+    padding:1rem;
     background-color:${({theme})=>theme.colors.primaryColor};
 
   
