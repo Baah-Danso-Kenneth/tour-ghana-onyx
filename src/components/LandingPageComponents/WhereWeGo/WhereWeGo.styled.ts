@@ -22,5 +22,6 @@ export const WhereWeGoElements=styled.div`
   display:flex;
   gap:2rem;
   flex-flow:wrap;
+  margin-bottom:2rem;
 
 `;

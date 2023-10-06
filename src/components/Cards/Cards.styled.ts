@@ -72,3 +72,42 @@ cursor:pointer;
 
 
 `;
+
+export const RecommendContent=styled.div`
+
+  .recommend_name{
+    color:${({theme})=>theme.colors.primaryColor};
+    font-style:italic;
+    font-size:13px;
+    font-family:${({theme})=>theme.fonts.HindFont};
+    transform:translate(12.5rem, -0.2rem);
+
+  }
+`;
+
+export const RecommendationCardContainer=styled.div`
+ position:relative;
+  width:300px;
+  padding:1rem;
+  background-color:${({theme})=>theme.colors.primaryColor};
+
+  >p{
+    color:#fff;
+    font-family:${({theme})=>theme.fonts.PoppinsFont};
+    font-weight:300;
+    font-size:13px;
+  }
+`;
+
+
+export const Triangle=styled.div`
+  position: absolute;
+  left: 80%;
+  transform: translateY(5px) rotate(80deg); /* Center the triangle horizontally */
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent; /* Adjust the size of the triangle */
+  border-right: 15px solid transparent; /* Adjust the size of the triangle */
+  border-top: 15px solid #6b7e18;/*atch the background color of the rectangle */
+
+`;

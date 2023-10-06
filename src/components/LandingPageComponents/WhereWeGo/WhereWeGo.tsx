@@ -25,7 +25,7 @@ function WhereWeGo() {
         <h3>WhereWeGo</h3>
         <WhereWeGoElements>
           {destinationInfo.map(({name, src, itenary, icon},index)=>(
-            <DestinationCard name={name} src={src} itenary={itenary} icon={icon}/>
+            <DestinationCard key={index} name={name} src={src} itenary={itenary} icon={icon}/>
           ))}
         </WhereWeGoElements>
     </WhereWeGoContainer>
