@@ -1,4 +1,5 @@
 import { styled } from "styled-components";
+import { RecommendationElement } from "../LandingPageComponents/Recommendation/Recommendation.styled";
 
 export const DestinationCardContainer=styled.div`
 width:240px;
@@ -110,4 +111,57 @@ export const Triangle=styled.div`
   border-right: 15px solid transparent; /* Adjust the size of the triangle */
   border-top: 15px solid #6b7e18;/*atch the background color of the rectangle */
 
+`;
+
+
+export const KindwordContainer=styled.div`
+  height:125vh;
+  margin-top:-2rem;
+  background-color:${({theme})=>theme.colors.subPrimaryColor};
+  >h1{
+    text-align:center;
+    transform:translate(0,0.8rem);
+    margin-bottom:1rem;
+    font-weight:200;
+    text-transform:uppercase;
+  }
+  
+  .kind-word-btn{
+    >button{
+  padding:10px 30px 10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transform:translate(34rem,0%);
+  margin-bottom:2rem;
+  outline:none;
+  border:none;
+  text-transform:uppercase;
+  background-color:${({theme})=>theme.colors.primaryColor};
+  border-radius:5px;
+  font-weight:200;
+  font-family:${({theme})=>theme.fonts.HindFont};
+  color:#fff;
+}
+  }
+
+
+`;
+
+export const KindwordElement= styled.div`
+   max-width:80%;
+   margin:0 auto;
+   display:flex;
+   flex-wrap:wrap;
+   gap: 2rem; 
+   justify-content:center;
+   align-items:center;
+   transform:translate(0%,5%);
+
+`; 
+
+export const KindwordCardContainer = styled(RecommendationCardContainer)``;
+export const KindwordElementCard = styled.div``;
+
+export const KindWordContent = styled(RecommendContent)`
 `;

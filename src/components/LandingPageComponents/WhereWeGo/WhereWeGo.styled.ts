@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const WhereWeGoContainer=styled.div`
+padding:3rem;
 >h3{
   text-align:center;
   font-family:${({theme})=>theme.fonts.PoppinsFont};

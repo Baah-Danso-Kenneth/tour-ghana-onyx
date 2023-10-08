@@ -8,6 +8,10 @@ import Recommendation from './Recommendation/Recommendation';
 import BusinessTourism from './BusinessOfTourism/BusinessTourism';
 import Brand from './Brand/Brand';
 import Adventure from './Adventure/Adventure';
+import TravelGroups from './Adventure/TravelGroups';
+import SingleTravel from './Adventure/SingleTravel';
+import KindWords from './KindWords';
+import Bookings from './Bookings/Bookings';
 
 
 
@@ -21,6 +25,10 @@ function index() {
       <BusinessTourism/>
       <Brand/>
       <Adventure/>
+      <TravelGroups/>
+      <SingleTravel/>
+      <Bookings/>
+      <KindWords/>
       </Layout>
   )
 }
